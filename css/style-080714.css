@@ -1,0 +1,361 @@
+@charset "utf-8";
+/* CSS Document */
+body { width:100%; margin:0; padding:0; font-family:arial; font-size:14px; line-height:20px; }
+h1.judul { font-size:20px; color:#32348e; }
+input.teks, textarea { padding:5px 10px; font-family:arial; font-size:14px; border:0; }
+input.tombol { background:url(../images/tombol.png); padding:5px 15px; color:#fff; border:0; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; }
+input.tombol:hover { cursor:pointer; background:url(../images/tombolhover.png); }
+a img { border:0; }
+#clearer { clear:both; }
+
+/* header css 
+#header { width:990px; margin:5px auto; overflow:hidden; }
+#header-left { float:left; }
+#header-right { float:right; }
+#header-right img { margin:20px 0 0 -5px; }
+#header-right img:hover { background:#ccc; }
+#header-right ul { list-style:none; margin:30px 0 0 0; padding:0; }
+#header-right ul li { display:block; float:left;  }
+#header-right ul li a { text-decoration:none; padding:5px 4px; display:block; color:#32348e; }
+#header-right ul li a:hover { background:#32348e; color:#fff; }
+*/
+
+/* header css
+#header { width:96%; margin:5px 2%; overflow:hidden; }
+#header-left { float:left; }
+#header-right { float:right; }
+#header-right img { margin:20px 0 0 -5px; }
+#header-right img:hover { background:#ccc; }
+#header-right ul { list-style:none; margin:30px 0 0 0; padding:0; }
+#header-right ul li { display:block; float:left;  }
+#header-right ul li a { text-decoration:none; padding:5px 4px; display:block; color:#32348e; }
+#header-right ul li a:hover { background:#32348e; color:#fff; }
+*/
+
+
+/* logo css */
+#logo { position:absolute; top:10px; left:0; z-index:9999; }
+#logo img { max-width:100%; }
+#logo img.logo2 { display:none; }
+
+/* menu css */
+#menu { position:absolute; top:0; right:0; z-index:9999999; }
+#menu img.drop { opacity:1; position:absolute; top:30px; right:30px;  z-index:9999999; }
+#menu img.drop:hover { opacity:1; cursor:pointer; }
+#drop #menuhover { 
+	/* background:url(../images/bgmenu.png) no-repeat right top; padding:20px 30px 0 0; width:350px; height:360px; position:fixed; top:0; right:0; display:none; */
+	background:#fff; width:350px; height:550px; display:none; position:absolute; top:-190px; right:-140px; 
+	-moz-transform: rotate(-40deg); -webkit-transform: rotate(-40deg); -ms-transform: rotate(-40deg); -o-transform: rotate(-40deg);
+}
+#menuhover img.dropback { position:absolute; margin:5px 0 0 80px; opacity:0.6; }
+#menuhover img.dropback:hover { opacity:1; cursor:pointer; }
+#menuhover ul { 
+	list-style:none; margin:170px 170px 0 0; padding:0; float:right; 
+	-moz-transform: rotate(40deg); -webkit-transform: rotate(40deg); -ms-transform: rotate(40deg); -o-transform: rotate(40deg);
+}
+#menuhover ul li { }
+#menuhover ul li a { 
+	background:url(../images/bullet.png) no-repeat right center; display:block;
+	text-decoration:none; text-align:right; color:#333; padding:0 20px 2px 0; 
+}
+#menuhover ul li a:hover { background:url(../images/bullethover.png) no-repeat right center; color:#f48f00; }
+#drop { background:url(../images/dropmenu.png) no-repeat center center; width:59px; height:59px; margin:10px 30px 30px 30px; }
+#drop:hover { background:none; }
+#drop:hover #menuhover { display:inline-block;  }
+#drop2 { 
+	background:#ff9000 url(../images/menu-drop.png) no-repeat 98% center; height:18px; padding:10px 10px; font-size:16px; font-weight:bold; color:#fff;
+	border-bottom:1px solid #fff; display:none;
+}
+#drop2:hover { background:#999 url(../images/menu-drop.png) no-repeat 98% center; cursor:pointer;  }
+
+/* menu css 
+#bgmenu { background:#32348e; width:100%; overflow:hidden; }
+#menu { width:990px; margin:0 auto; }
+#menu-left { float:left; }
+#menu-right { float:right; }
+#drop { 
+	background:#32348e url(../images/menu-drop.png) no-repeat 98% center; padding:10px; font-size:16px; font-weight:bold; color:#fff; display:none;
+	border-bottom:1px solid #fff; border-left:1px solid #fff;
+}
+#drop:hover { background:#ccc url(../images/menu-drop.png) no-repeat 98% center; cursor:pointer;  }
+*/
+
+/* menu ul css
+#menu ul { list-style:none; margin:0; padding:0; }
+#menu ul li { float:left; display:block; }
+#menu ul li a { text-decoration:none; color:#fff; display:block; padding:10px; border-left:1px solid #fff; border-right:1px solid #fff; margin:0 -1px 0 0; }
+#menu ul li a:hover { background:#ccc; color:#333; }
+*/
+
+/* judul css */
+#judul { position:absolute; width:100%; margin:30px 0 0 500px; z-index:999999; }
+#judul img { max-width:100%; }
+
+/* content css */
+#content { width:990px; min-height:495px; margin:100px auto 10px auto; overflow:hidden; }
+
+/* produk css */
+#produk { margin:50px 0 0 0; height:620px; overflow:hidden; }
+#produk-left { float:left; }
+#produk-left img { position:absolute; }
+#produk-right { float:right; background-color:rgba(153,153,153,0.5); width:360px; height:510px; margin:0 0 0 20px; color:#fff; }
+#produk-right img { width:360px; }
+img.produk2, img.produk3, img.produk4, img.produk5 { display:none; }
+
+/* product-application css */
+#product-application-ket { float:left; width:150px; color:#fff; }
+#product-application-ket p { margin:0 0 30px 0; padding:5px; }
+#product-application-left { float:left; width:250px; margin:0 35px; padding:10px 10px; background:url(../images/bgtransparant.png); font-size:16px; color:#fff; 
+line-height:29px; }
+#product-application-left img { width:100%; }
+#product-application-right { float:left; width:500px; overflow:hidden;  }
+
+/* produk2 css */
+#produk2 { display:none; }
+#produk2-left { float:left; width:26%;  }
+#produk2-left img { width:100%; margin-top:100%; }
+#produk2-center { float:left; width:20%; margin:0 2%; }
+#produk2-center img { width:100%; margin-bottom:2%; }
+#produk2-right { float:left; width:50%; }
+#produk2-right img { width:100%; }
+
+/* facility css */
+#facility { }
+#facility table { border-collapse:collapse; background:url(../images/flow/bgflow.png) no-repeat; float:left; }
+#facility table td { vertical-align:top; }
+#facility table td img { opacity:0.5; }
+#facility table td img.flow1 { opacity:1; }
+#facility-ket { 
+	float:left; width:420px; margin:0 30px 0 30px; padding:0; color:#fff; background:url(../images/bgtransparant.png); 
+	/* border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; */
+}
+#facility-ket label { display:block; font-weight:bold; margin:10px 0 0 0; padding:15px; }
+#facility-ket p { text-align:justify; font-size:16px; padding:0 15px 15px 15px; min-height:205px; }
+#facility-ket2, #facility-ket3, #facility-ket4, #facility-ket5, #facility-ket6, #facility-ket7, #facility-ket8, #facility-ket9 { display:none;   }
+#facility2 { display:none;  }
+
+/* table.chart css */
+table.chart { border-collapse:collapse;  width:100%; font-size:13px; color:#FFF; text-align:center; }
+table.chart th { padding:5px 5px; border-bottom:1px solid #fff; vertical-align:top; }
+table.chart td { padding:3px 5px;  color:#fff; vertical-align:top; }
+table.chart span.column { width:50%; text-align:center; display:block; float:left; border-top:1px solid #fff; }
+table.chart span.column2 { width:50%; text-align:center; display:block; float:left;  }
+
+/* news css */
+#news-dalam { margin:10px; border-bottom:1px dashed #999; overflow:hidden; }
+#news-dalam img { float:left; margin:0 15px 0 0; width:120px; border-radius:15px; -webkit-border-radius:15px; -moz-border-radius:15px; margin-bottom:10px; }
+#news-dalam label { display:inline-block; font-size:16px; font-weight:bold; color:#ff9000;  }
+#news-dalam span.tanggal { display:block; color:#999; margin-top:5px; }
+#news-dalam p { margin:5px 0; color:#fff; }
+#news-dalam a.more { margin:5px; display:block; color:#ff9000; }
+#news-dalam a.more:hover { color:#666; }
+
+/* news-detail css */
+#news-detail { color:#fff; padding:15px; }
+#news-detail img { float:left; border-radius:15px; -webkit-border-radius:15px; -moz-border-radius:15px; margin:0 15px 10px 0; }
+#news-detail label { display:inline-block; font-size:16px; font-weight:bold; color:#ff9000;  }
+#news-detail span.tanggal { display:block; color:#999; margin-top:5px; }
+#news-detail p { margin:5px 0; color:#fff; }
+
+/* data-link css */
+#data-link { font-size:13px; color:#fff; clear:both; letter-spacing:1px; padding:0 10px; }
+#data-link a { 
+	text-decoration:none; color:#fff; margin:2px 1px; padding:2px 0; display:inline-block; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px;
+}
+#data-link a:hover { color:#ff9000; text-decoration:underline; }
+#data-link span.active { font-weight:bold; color:#ff9000; }
+
+/* career css */
+#career-dalam { margin:10px; border-bottom:1px dashed #999; }
+#career-dalam label { display:inline-block; font-size:16px; font-weight:bold; color:#ff9000;  }
+#career-dalam p { margin:5px 0; color:#fff; }
+#career-dalam a.more { margin:5px; display:block; color:#ff9000; }
+#career-dalam a.more:hover { color:#666; }
+
+/* kontak css */
+#kontak-messages { width:990px; min-height:495px; margin:100px auto 10px auto; overflow:hidden; }
+#kontak-messages-left { float:left; width:270px; color:#fff; margin-right:20px; }
+#kontak-messages-left a { color:#ff9000; text-decoration:none; }
+#kontak-messages-left a:hover { text-decoration:underline; }
+#map_canvas { width:190px; height:175px; margin:42px 0 0 0; }
+a.map { margin:0 0 0 20px; clear:both; display:block;  }
+a.map img { border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; }
+#kontak-teks { 
+	height:253px; text-align:right; line-height:20px; background:url(../images/bgtransparant.png); padding:1px 15px; 
+	border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px;  
+}
+#kontak-teks h4 { margin:8px 0; }
+#kontak-teks p { margin:6px 0; }
+#kontak-teks span.kontak-teks-skype { background:url(../images/skype.png) no-repeat left center; display:inline-block; padding-left:20px; color:#437c9c; }
+#kontak-messages-right { 
+	background:url(../images/bgtransparant.png); width:450px; height:390px; padding:20px 10px; display:block; color:#fff; float:left; 
+	border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; 
+}
+#kontak-messages-right table { margin:0px 0 0 0; }
+#kontak-messages-right table td { padding:7px 10px 7px 10px; vertical-align:top; }
+#kontak-messages-right table td input.teks { width:270px; background:#4a4a4a; color:#fff; }
+#kontak-messages-right table td textarea { width:270px; height:150px; background:#4a4a4a; color:#fff; }
+#kontak-messages-right table td input.tombol { float:right; color:#d83344; }
+
+/* skype css */
+#kontak-right { float:left; width:190px; }
+#skype { 
+	float:left; width:190px; height:240px; margin:0 0 10px 20px; background:url(../images/bgtransparant.png); color:#fff; 
+	border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px;
+}
+#skype h2 { text-align:center; font-size:16px;  }
+#skype-dalam { margin:-40px -32px -62px -32px; padding:0 10px; }
+#skype-dalam p { margin:0; padding:0; }
+#skype-dalam img { background:#363636; padding:10px 7px 5px 7px; border-radius:5px; }
+#skype-dalam label { position:absolute; margin:-65px 0 0 124px; font-size:14px; font-weight:bold;  }
+
+/* download css */
+#download { margin:10px 0 0 0; padding:5px 10px; background:url(../images/bgtransparant.png); border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:10px; }
+#download-dalam { overflow:hidden; margin:10px 0 10px 0; }
+#download-dalam img { float:left; margin-right:10px; }
+#download-dalam a { text-decoration:none; font-size:16px; font-weight:bold; color:#ff9000; display:block; margin:8px 0 0 5px; }
+#download-dalam a:hover { color:#fff; }
+
+
+/* slider-teks css */
+#slider-teks { background:#d9d9d9; width:100%; padding:15px 0; }
+#slider-teks-dalam { width:990px; margin:0 auto; text-align:center; font-weight:bold; color:#32348e; }
+
+/* banner css */
+#banner { width:1005px; margin:20px auto; overflow:hidden; display:none; }
+#banner-dalam { float:left; width:325px; margin:0 5px; }
+#banner-dalam a { 
+	position:absolute; display:block; background-color:rgba(204,204,204,0.6); text-decoration:none; width:296px; font-weight:bold; color:#32348e; 
+	margin:150px 0 0 0; padding:10px; display:none; 
+}
+#banner-dalam a:hover { background-color:rgba(50,52,142,0.6); color:#fff; }
+#banner-dalam:hover a { display:block; }
+
+/* data-link css */
+#data-link { padding:10px; font-size:12px; font-weight:bold; color:#fff; }
+#data-link label { }
+#data-link a { text-decoration:none; color:#fff; background:#0C0; margin:0 1px; padding:0 6px; border-radius:10px; color:#000; display:inline-block; }
+#data-link a:hover { text-decoration:none; background:#030; color:#fff; }
+
+/* footer css */
+#bgfooter { background:#d9d9d9; width:100%; margin:0 0 0 0; padding:2px 0; overflow:hidden; }
+#footer { width:96%; margin:0 2%; }
+#footer p { margin:10px 0 0 0; font-size:12px; color:#6e6e6e; }
+#footer p span { font-weight:bold; }
+#footer-left { float:left; }
+#footer-right { float:right; }
+#footer-right p { display:inline; float:right; margin-right:10px; }
+#social { float:right; }
+
+@media only screen and (max-width: 990px) {
+	#header { width:auto; margin:5px 10px; }	
+	#menu { width:auto; }
+	#content { width:auto; margin:130px 10px 10px 10px; }
+	#slider-teks-dalam { width:auto; margin:0 10px; }
+	table.chart { width:100%; font-size:10px; }
+	table.chart th { padding:5px 5px; }
+	table.chart td { padding:5px 5px; }
+	#produk { display:none; }
+	#produk2 { display:block; }
+	#facility { width:auto; margin:0; padding:0; }
+	#facility table { display:none; }
+	#facility-ket { width:46%; float:left; margin:0; padding:2%; }
+	#facility2 { display:block; width:50%; float:left; }
+	#kontak-messages { width:98%; margin:130px 1% 10px 1%; }
+	#kontak-messages-left { width:auto; float:none; margin:0; }
+	#kontak-teks { float:left; width:45%; margin:0 1% 10px 0; padding:0 2%; text-align:left; }
+	#map_canvas { float:left; width:49%; height:242px; margin:0 0 10px 1%; padding:0; }
+	#kontak-messages-right { float:left; width:47%; height:550px; margin:0 1% 10px 0; padding:2% 1%; overflow:hidden; }
+	#kontak-messages-right table td { display:block; padding:5px 10px; width:100%; }
+	#kontak-messages-right table td input.teks { max-width:100%; }
+	#kontak-messages-right table td input.tombol { float:none; }
+	#skype { float:left; width:47%; height:580px; margin:0 0 0 1%; padding:0 1%; text-align:left; overflow:hidden; }
+	#download { width:auto; margin:0; padding:40px 0 0 0; background:none; }
+	#download-dalam { margin:0; padding:5px 0; }
+	#footer { width:auto; padding:0 10px; text-align:center; }
+	#footer-left { float:none; display:block; }
+	#footer-right { float:none; display:block; }
+	#bgheader { width:auto; }
+	#logo { width:30%; float:left;  }
+	#logo img { width:100%; }
+	#judul { width:30%; float:left; margin:15px 0 0 50%; }
+	#judul img { width:auto; max-width:100%; }
+}
+@media only screen and (max-width: 800px) {
+	#logo { width:50%; }
+	#logo img { width:100%; }
+	#drop { background:url(../images/dropmenu2.png) no-repeat center center; width:29px; height:29px; }
+	#content { margin:100px 10px 10px 10px; }
+	#kontak-messages { margin:100px 10px 10px 10px; }
+	#banner { width:99%; margin:20px 0.5%; display:block; }
+	#banner-dalam { width:31.3%; margin:0 1% 10px 1%; }
+	#banner-dalam img { width:100%; }
+	#banner-dalam a { position:relative; display:block; width:auto; margin:0; font-size:10px; }
+	#product-application-ket { display:none; }
+	#product-application-left { float:none; width:100%; margin:10px 0; }
+	#product-application-right { float:none; width:100%; margin:0; }
+}
+@media only screen and (max-width: 740px) {
+	#bgmenu { background:none; }
+	#menu ul li a { border-bottom:1px solid #fff; }
+	#menu-left { float:none; clear:both; }
+	#menu-left ul { background:#32348e; display:none; }
+	#menu-left ul li { float:none; }
+	#menu-right { clear:both; }
+	#menu-right ul li a { background:#32348e;  }
+	#drop { display:block; }
+	#content { margin:120px 10px 10px 10px; }
+	#kontak-messages { margin:120px 10px 10px 10px; }
+	#footer-right, #footer-right p, #social { float:none; text-align:center; }
+}
+@media only screen and (max-width: 650px) {
+	#kontak-teks { float:none; width:94%; margin:0 0 10px 0; padding:1px 2%;  }
+	#map_canvas { float:none; width:98%; height:287px; margin:0 0 10px 0; padding:0; }
+	#kontak-messages-right { float:none; width:94%; margin:0 0 10px 0; padding:10px 2%;  }
+	#skype { float:none; width:94%; margin:0 0 10px 0; padding:1px 2%;  }
+	#facility-ket { width:76%; }
+	#facility2 { width:20%; }
+	#facility2 img { width:100%; }
+}
+@media only screen and (max-width: 570px) {
+	#header { text-align:center; }
+	#header-left { float:none; }
+	#header-left img.logo { max-width:100%; }
+	#header-right { float:none; }
+}
+@media only screen and (max-width: 500px) {
+	#banner-dalam { width:48%; margin:0 1% 10px 1%; }
+}
+@media only screen and (max-width: 410px) {
+	#news-dalam img { float:left; margin-bottom:10px; }
+	#news-dalam p { clear:both; display:block; }
+	#news-dalam a.more, #career-dalam a.more { margin-left:0; }
+	table.chart th { padding:5px 2px; }
+	table.chart td { padding:5px 2px; }
+}
+@media only screen and (max-width: 350px) {
+	#menu { position:relative; width:auto; height:auto; float:none; }
+	#logo { width:90%; float:none; margin:10px 5% 20px 5%; position:relative; }
+	#logo img { width:100%; }
+	#judul { width:90%; float:none; margin:10px 5%; position:relative; }
+	#judul img { width:auto; }
+	#drop { background:none; margin:0; padding:0; width:auto; height:auto; right:0; float:none;  }
+	#drop:hover { display:block;  width:auto; height:auto; background:#ff9000; float:none; }
+	#drop #menuhover { 
+		position:relative; margin:0; padding:0; right:0; top:0; width:auto; height:auto; float:none;
+		-moz-transform: rotate(0deg); -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); -o-transform: rotate(0deg);
+	}
+	#menuhover ul { 
+		margin:0; padding:0; float:none; display:block;  width:auto; height:auto; 
+		-moz-transform: rotate(0deg); -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); -o-transform: rotate(0deg);
+	}
+	#menuhover ul:hover { display:block;  width:auto; height:auto; }
+	#menuhover ul li a { color:#fff; background:#ff9000; text-align:left; width:auto; height:auto; padding:5px 10px; display:block; float:none; }
+	#menuhover ul li a:hover { background:#ff9000; display:block; float:none; width:auto; height:auto; color:#333; float:none; }
+	#drop:hover #menuhover { display:block;  }
+	#drop2 { display:block; }
+	#content { margin:10px 10px 10px 10px; }
+	#kontak-messages { margin:20px 10px 10px 10px; }
+	#banner { width:auto; margin:20px 0; }
+	#banner-dalam { float:none; width:80%; margin:0 10% 15px 10%; }
+}

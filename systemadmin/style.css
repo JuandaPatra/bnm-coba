@@ -1,0 +1,532 @@
+html{
+	width:100%;
+	height:100%;
+}
+
+textarea,input,select
+{
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 8pt;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	color: #333333;
+}
+
+#inner td
+{
+	border:none;
+}
+
+.login_text{
+	color : #333;
+	font-size : 11px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+body 
+{
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	color : #333;
+	background-color : #FFF;
+	font-size : 11px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+#wrapper 
+{
+	border: 0px;
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0px;
+}
+
+#header 
+{
+	background-color: #FFF;
+	background-position: right top;
+	border-bottom: 4px solid #890b0e;
+}
+
+.header_bg
+{
+	background-image: url('images/page_bg.jpg');
+	background-repeat: repeat;
+	border-bottom: 2px solid #ffffff;
+}
+
+.button {
+	border : solid 1px #cccccc;
+	background: #E9ECEF;
+	color : #666666;
+	font-weight : bold;
+	font-size : 11px;
+	cursor : hand;
+	padding: 4px;
+}
+
+.login {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6em;
+	padding: 15px;
+	border: 3px solid #6599ff;
+	width: 429px;
+	background-image: url('images/page_bg.jpg');
+	background-repeat: repeat;
+}
+	
+.login h1 {
+	color: #333;
+	margin: 0px;
+	height: 50px;
+	padding: 15px 4px 0 50px;
+ 	text-align: left;
+	font-size: 1.5em;
+}
+
+.login p {
+	padding: 0 1em 0 1em;
+	}
+	
+.form-block {
+	border: 2px solid #ffffff;
+	background: #6599ff;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+.login-form {
+	text-align: left;
+	float: right;
+	width: 60%;
+}
+
+.login-text {
+	text-align: left;
+	width: 40%;
+	float: left;
+	color: #ffffff;
+}
+
+.inputlabel {
+	font-weight: bold;
+	text-align: left;
+	}
+
+.inputbox {
+	width: 150px;
+	margin: 0 0 1em 0;
+	border: 1px solid #890b0e;
+}
+
+.inputtext
+{
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 8pt;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	color: #333333;
+}
+
+.link
+{
+	font-weight:normal;
+	FONT-SIZE: 11px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	color: #ff0000;
+	text-decoration:none;
+}
+
+.link A 
+{
+	font-weight:normal;
+	color: #000000;
+	text-decoration:none;
+}
+
+.link A:visited 
+{
+	font-weight:normal;
+	color: #000000;
+}
+
+
+.link A:hover
+{
+	font-weight:normal;
+	color: #ff0000;
+	text-decoration:underline;
+}
+
+.clr 
+{
+    clear:both;
+}
+
+.ctr {
+	text-align: center;
+}
+
+.version {
+	font-size: 0.8em;
+}
+
+/* standard form style table */
+table.adminform {
+	background-color: #f9f9f9;
+	border: solid 1px #000000;
+	width: 100%;
+	padding: 8px;
+	border-collapse: collapse;
+}
+table.adminform tr.row0 {
+	background-color: #f9f9f9;
+}
+table.adminform tr.row1 {
+	background-color: #eeeeee;
+}
+table.adminform th {
+	font-size: 11px;
+	padding-top: 6px;
+	padding-bottom: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	text-align: left;
+	height: 25px;
+	background: url(images/background.jpg);
+	color: #000;
+	background-repeat: repeat;
+}
+table.adminform td {
+	padding: 3px;
+	text-align: left;
+}
+table.adminform td.editor {
+	font-size: 9px;
+}
+
+table.cpanel td {
+	text-align: center;
+}
+
+form {
+	margin: 0px 0px 0px 0px;
+}
+/* Styles for dhtml tabbed-pages */
+.ontab {
+	font-size: 12px;
+	background-color: #ffae00;
+	border: 1px solid #890b0e;
+	width: 14%;
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.offtab {
+	font-size: 12px;
+	background-color : #890b0e;
+	border: 1px solid #890b0e;
+	width: 14%;
+	text-align: center;
+	cursor: pointer;
+	font-weight: normal;
+}
+.tabpadding {
+	/*border-bottom: solid 1px #D5D5D5;*/
+}
+.tabheading {
+	background-color: #FFAE00;
+	color: #FFF;
+	font-size: 10px;
+	text-align: left;
+}
+.pagetext {
+	visibility: hidden;
+	display: none;
+	position: relative;
+	top: 0;
+}
+.menubackgr {
+	background: #a7c195;
+	border-bottom: 1px solid #890b0e;
+
+}
+.menudottedline {
+	border-bottom: 1px solid #890b0e;
+	border-top: 1px solid #ffffff;
+	background-color: #a7c195;
+}
+.pathway {
+	margin-left: 15px;
+}
+.adminheader {
+	color : #c30;
+	font-size : 24px;
+}
+/* Text passed with mosmsg url parameter */
+.message 
+{
+	line-height:12px;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size : 11px;
+	color : #c30;
+}
+
+div.centermain {
+	padding: 0 10px;
+}
+
+div.main {
+	width: 99%;
+	padding: 0;
+}
+.quote {
+	margin: 4px;
+	border: 1px solid #890b0e;
+	background-color: #E9ECEF;
+	padding: 10px;
+	font-size: 12px;
+	color: #254D78;
+}
+
+
+/* mod_quickicon */
+
+#cpanel {  text-align: center;  vertical-align: middle; }
+
+#cpanel div.icon   { margin: 3px; }
+#cpanel div.icon a { 
+	display: block; float: left;
+	height: 97px !important;
+	height: 100px; 
+	width: 108px !important;
+	width: 110px; 
+	vertical-align: middle; 
+	text-decoration : none;
+	border: 1px solid #890b0e;
+	padding: 2px 5px 1px 5px;
+}
+
+#cpanel div.icon a:link    {  color : #311106;  }
+#cpanel div.icon a:hover   { 
+	color : #333; 
+	background-color: #f1e8e6;  
+	border: 1px solid #c24733;
+	padding: 3px 4px 0px 6px; 
+}
+#cpanel div.icon a:active  {  color : #311106;  }
+#cpanel div.icon a:visited {  color : #311106;  }
+
+#cpanel div.icon img { margin-top: 13px; }
+#cpanel div.icon span { display: block; padding-top: 3px;}
+
+/* Tooltips */
+a.tooltip, a.tooltip:hover  {
+	color: black;
+	text-decoration: none;
+	border-bottom: 1px dashed #aaa;
+}
+
+a.tooltiplink {
+	display: block; 
+	width: 100%; 
+}
+a.tooltiplink:hover {
+	text-decoration:  none;
+}
+
+/* Fieldsets */
+fieldset {
+	margin-bottom: 10px;
+	border: 1px #ccc solid;
+	padding: 5px;
+	text-align: left;
+}
+
+fieldset p { 
+	margin: 10px 0px; 
+}
+
+legend { 
+	color: #c24733; 
+	font-size: 1.1em; 
+	font-weight: bold; 
+}
+
+/* Two Pane Formatting */
+#treecell {
+	width: 20%; 
+	display: block; 
+	position: relative; 
+	float: left;
+	margin: 0; 
+	padding: 2px;
+	overflow: hidden;
+}
+
+.expander { 
+	float: right;  
+}
+
+#datacell {
+	width: 78%; 
+	display: block; 
+	float: left;
+	margin: 0; 
+	padding: 2px 0px 0px 0px;	
+}
+
+#datacellfull {
+	width: 98%; 
+	display: block; 
+	float: left;
+	margin: 0; 
+	padding: 2px;
+}
+
+#treecell fieldset { 
+}
+#datacell fieldset { 
+	border: 1px #ccc solid; 
+}
+
+span.editlinktip {
+	text-decoration:  none;
+	border-bottom: 1px dashed #aaa;
+}
+
+table.paramlist td {
+	height: 30px;
+}
+
+div.footer {
+	clear: both;
+	margin-top: 10px;
+}
+
+/* standard list style table */
+table.adminlist {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #890b0e;
+	border-spacing: 0px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table.adminlist th {
+	margin: 0px;
+	padding: 6px 4px 2px 4px;
+	height: 25px;
+	background: url(images/background.jpg);
+	background-repeat: repeat;
+	font-size: 11px;
+	color: #000;
+}
+table.adminlist th.title {
+	text-align: left;
+}
+
+table.adminlist th a:link, table.adminlist th a:visited {
+	color: #890b0e;
+	text-decoration: none;
+}
+
+table.adminlist th a:hover {
+	text-decoration: underline;
+}
+
+table.adminlist tr.row0 {
+	background-color: #F9F9F9;
+}
+table.adminlist tr.row1 {
+	background-color: #FFF;
+}
+table.adminlist td {
+	border-bottom: 1px solid #890b0e;
+	padding: 4px;
+}
+
+table.adminlist td.options {
+	background-color: #ffffff;
+	font-size: 8px;
+}
+
+table#toolbar {
+	margin-right: 10px;
+}
+
+table#toolbar a.toolbar {
+	color : #311106;
+	text-decoration : none;
+	display: block;
+	border: 1px solid #890b0e;
+	width: 55px;
+	padding: 2px 1px 2px 1px;
+}
+table#toolbar a.toolbar:visited {
+	font-weight:normal;
+}
+table#toolbar a.toolbar:hover {
+	color : #890b0e;
+	border: 1px solid #c24733;
+	background-color: #f1e8e6;
+	padding: 3px 0px 1px 2px;
+}
+table#toolbar a.toolbar:active {
+	color : #FF9900;
+}
+
+/* header block */
+table.adminheading {
+	background-color: #FFF;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 10px;
+	border: 0px;
+	width: 100%;
+	border-collapse: collapse;
+	color: #890b0e;
+	font-size : 18px;
+	font-weight: bold;
+	text-align: left;
+}
+table.adminheading th {
+	text-align: left;
+	height: 50px;
+	width: 99%;
+	padding-left: 50px;
+	border-bottom: 5px solid #fff;
+}
+
+table.adminheading td 
+{
+	color : #890b0e;
+}
+
+table.contenteditor {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+table.contenteditor td {
+	border-bottom: 0px;
+	padding: 0px;
+}
+
+table.webeditor {
+	border:#888888 1px solid;
+}
+table.webeditor td {
+	border: 0px;
+	padding: 4px;
+}

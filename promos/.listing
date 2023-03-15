@@ -1,0 +1,15 @@
+drwxr-xr-x    7 10125      client22         4096 Sep 16 16:42 .
+drwxr-xr-x    7 10125      client22         4096 Sep 16 16:40 ..
+-rw-r--r--    1 10125      client22        10211 Sep 16 16:41 .DS_Store
+-rw-r--r--    1 10125      client22          286 Sep 16 16:41 apple-touch-icon-114x114.png
+-rw-r--r--    1 10125      client22          252 Sep 16 16:41 apple-touch-icon-72x72.png
+-rw-r--r--    1 10125      client22        51155 Sep 16 16:41 apple-touch-icon.16x16.fw.png
+-rw-r--r--    1 10125      client22          244 Sep 16 16:41 apple-touch-icon.png
+drwxr-xr-x    2 10125      client22         4096 Sep 16 16:41 css
+-rw-r--r--    1 10125      client22          251 Sep 16 16:41 favicon.ico
+drwxr-xr-x    2 10125      client22         4096 Sep 16 16:41 fonts
+drwxr-xr-x    3 10125      client22         4096 Sep 16 16:42 images
+-rw-r--r--    1 10125      client22        16014 Sep 16 16:41 index.html
+drwxr-xr-x    2 10125      client22         4096 Sep 16 18:04 js
+drwxr-xr-x    2 10125      client22         4096 Sep 16 16:42 mail
+-rw-r--r--    1 10125      client22         4125 Sep 16 16:41 thankyou.html

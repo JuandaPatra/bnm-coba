@@ -1,0 +1,48 @@
+div.domtab{ margin:100px 2% 10px 2%; width:96%; min-height:495px; }
+div.domtab h1 { margin:0 0 20px 0; padding:0 0 10px 25px; 
+background:url(../images/icon-artikel2.png) no-repeat left 2px; display:block; border-bottom:1px solid #000; }
+ul.domtabs{ float:left; list-style:none; margin:0; padding:0; }
+ul.domtabs li{ float:left; padding:0 0 0 0; }
+ul.domtabs a:link, ul.domtabs a:visited, ul.domtabs a:active, ul.domtabs a:hover{
+	padding:10px 8px; display:block; font-size:14px; color:#fff; text-decoration:none; background:url(../images/bgtransparant.png);
+	border-radius:10px 10px 0 0; -webkit-border-radius:10px 10px 0 0; -moz-border-radius:10px 10px 0 0; 
+}
+html>body ul.domtabs a:link, html>body ul.domtabs a:visited, html>body ul.domtabs a:active, html>body ul.domtabs a:hover{ }
+ul.domtabs a:hover{ /* background:#333; */ }
+div.domtab div{ 
+	clear:both; width:auto; color:#fff; padding:10px 0; background:url(../images/bgtransparant.png); overflow:hidden;
+	border-radius:0 0 10px 10px; -webkit-border-radius:0 0 10px 10px; -moz-border-radius: 0 0 10px 10px; 
+}
+div.domtab div img.gambar { float:left; margin-right:10px; }
+ul.domtabs li.active a:link, ul.domtabs li.active a:visited, ul.domtabs li.active a:active, ul.domtabs li.active a:hover{ /* background:#464646; */ }
+#domtabprintview{ float:right; padding-right:1em; text-align:right; }
+#domtabprintview a:link, #domtabprintview a:visited, #domtabprintview a:active, #domtabprintview a:hover{ color:#fff; }
+div.domtab div a:link, div.domtab div a:visited, div.domtab div a:active { color:#000; display:block; font-weight:bold; font-size:14px; text-decoration:none; }
+div.domtab div a.link:hover { color:#999; }
+div.domtab div p { font-size:14px; color:#000; margin:0; }
+		
+/* other scheme! */
+#other{ font-size:.8em; margin-left:.3em; width:60em; margin-bottom:3em; float:left; }
+div#other.domtab div{ clear:both; width:54em; background:#669; color:#fff; padding:1em 3em; }
+#other ul.domtabs a:hover{ background:#669; }
+div#other ul.domtabs li.active a:link, div#other ul.domtabs li.active a:visited, div#other ul.domtabs li.active a:active, div#other ul.domtabs li.active a:hover{
+background:#669; color:#fff; }
+#other div{ float:left; }
+ul.prevnext{ float:left; width:100%; }
+ul.prevnext li{ float:left; width:49%; }
+ul.prevnext li.next{ float:right; text-align:right; }
+
+@media only screen and (max-width: 990px) {
+	ul.domtabs a:link, ul.domtabs a:visited, ul.domtabs a:active, ul.domtabs a:hover{ 
+		font-size:10px; padding:5px;
+	}
+}
+@media only screen and (max-width: 800px) {
+	div.domtab { margin-top:120px; }
+}
+@media only screen and (max-width: 740px) {
+	div.domtab { margin-top:70px; }
+}
+@media only screen and (max-width: 350px) {
+	div.domtab { margin-top:20px; }
+}
